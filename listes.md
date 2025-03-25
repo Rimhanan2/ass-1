@@ -580,7 +580,14 @@ def dep3(l):
 print("sol 3",dep3(['A', 'A', 'A', 'B', 'C', 'B', 'C', 'B', 'C', 'B']))
 
 
-
+def aff(dessin):
+  for ligne in dessin:
+    for col in ligne:
+      if col == 1:
+        print(" *", end= "")
+    else:
+        print("  ", end= "")
+  print()
 
 
 
