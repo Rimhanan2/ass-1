@@ -541,7 +541,13 @@ def intersection(l1,l2):
   return l3
 print(intersection(l1,l2))
 '''
-
+# Ex1
+def verifier(l):
+  for i in range(len(l)-1):
+    if l[i]>l[i+1]:
+      return False
+  return True
+verifier([0, 5, 8, 8, 9])
 
 
 
