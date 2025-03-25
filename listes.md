@@ -559,7 +559,7 @@ def dep1(l):
 print("sol 1", dep1(['A', 'A', 'A', 'B', 'C', 'B', 'C', 'B', 'C', 'B']))
 
 
-
+# EX2
 def dep2(l):
   d =dict()
   for e in l:
@@ -579,19 +579,6 @@ def dep3(l):
   return d
 print("sol 3",dep3(['A', 'A', 'A', 'B', 'C', 'B', 'C', 'B', 'C', 'B']))
 
-Add class comment…
-
-
-Post by ORIYANERASS ZINEB
-ORIYANERASS ZINEB
-Created 2:51 PM2:51 PM
-def verifier(l):
-  for i in range(len(l)-1):
-    if l[i] >= l[i+1]: 
-      return False
-  return True
-
-verifier([0, 5, 8, 8, 9])
 
 
 
